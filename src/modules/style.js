@@ -2,6 +2,6 @@
 const swapStyle = (node, classOut, classIn) => {
   node.classList.remove(classOut);
   node.classList.add(classIn);
-}
+};
 
-export { swapStyle };
+export default swapStyle;

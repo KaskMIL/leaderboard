@@ -1,6 +1,6 @@
 import './styles/main.scss';
 import './modules/set-game.js';
-import { swapStyle } from './modules/style.js';
+import swapStyle from './modules/style.js';
 import { setValues, dataWait, reloadList } from './modules/scores.js';
 import Player from './modules/player-score.js';
 
