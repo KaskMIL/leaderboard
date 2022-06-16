@@ -6,7 +6,7 @@ function createLi(name, score, node) {
   const nameSp = document.createElement('span');
   const scoreSp = document.createElement('span');
   // set values
-  nameSp.innerHTML = name;
+  nameSp.innerHTML = `${name}: `;
   scoreSp.innerHTML = score;
   // append elements
   li.appendChild(nameSp);
@@ -14,4 +14,4 @@ function createLi(name, score, node) {
   parent.appendChild(li);
 }
 
-export default createLi;
+export {createLi};
