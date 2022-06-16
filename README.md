@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> Leaderboard is an app that allows you to set a score board of your favourites games. It create a list with the most recent scores, getting the scores from an external API.
 
 ## Built With
 
 - HTML CSS Javascript
 - Linters and Webpack
 
-## [Live Demo](https://kaskmil.github.io/toDo-list/)
+## [Live Demo](https://kaskmil.github.io/leaderboard/)
 
 
 ## Getting Started
@@ -22,8 +22,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-    1. git clone https://github.com/KaskMIL/toDo-list.git
-    2. cd Todo_list
+    1. git clone https://github.com/KaskMIL/leaderboard
+    2. cd leaderboard
 
 ### Install
 
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
     npm run dev
 
 
-## Authors
+## Author
 
 👤 **Tom Milanesi**
 

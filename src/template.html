@@ -7,6 +7,28 @@
   <title>title</title>
 </head>
 <body>
-  <h1>hello world</h1>
+  <header>
+    <h1>Leaderboard</h1>
+  </header>
+  <main>
+    <section class="recentScore-section">
+      <div class="title-score">
+        <h2>Recent scores</h2>
+        <button id="refresh">Refresh</button>
+      </div>
+      <ul id="scoreContainer">
+      </ul>
+    </section>
+    <section class="addScore-section">
+      <h2>Add your score</h2>
+      <form>
+        <input id="nameIn" type="text" placeholder="Your name">
+        <input id="scoreIn" type="number" placeholder="Your score">
+        <button id="addBtn" type="submit">Submit</button>
+        <div class="message waiting"></div>
+      </form>
+    </section>
+  </main>
+  <footer>Created by Tom Milanesi &copy; All Rights Reserved</footer>
 </body>
 </html>
