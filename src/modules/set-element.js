@@ -1,5 +1,5 @@
 // Function to create element
-function createLi(name, score, node) {
+const createLi = (name, score, node) => {
   // set element variables
   const parent = node;
   const li = document.createElement('li');
@@ -8,11 +8,11 @@ function createLi(name, score, node) {
   // set values and class
   nameSp.innerHTML = `${name}:`;
   scoreSp.innerHTML = score;
-  li.classList.add('score-li')
+  li.classList.add('score-li');
   // append elements
   li.appendChild(nameSp);
   li.appendChild(scoreSp);
   parent.appendChild(li);
-}
+};
 
-export {createLi};
+export default createLi;
