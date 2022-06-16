@@ -20,8 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 62.5%;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n}\n\nbody {\n  font-size: 1.6rem;\n  font-family: \"Roboto\", sans-serif;\n}\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  border: 0.1rem solid black;\n}\nul li {\n  padding: 1rem;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  column-gap: 5rem;\n  margin-bottom: 5rem;\n}\n\n.recentScore-section .title-score {\n  display: flex;\n  align-items: center;\n}\n.recentScore-section .title-score h2 {\n  margin-right: 2rem;\n}\n\n.score-li {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}\n\n.recentScore-section ul li:nth-child(2n) {\n  background-color: grey;\n  color: white;\n}\n\n.addScore-section form {\n  display: flex;\n  flex-direction: column;\n  row-gap: 1rem;\n  justify-content: flex-end;\n}\n.addScore-section form input {\n  padding: 0.5rem;\n}\n.addScore-section form button {\n  width: 50%;\n  align-self: flex-end;\n  margin-bottom: 2rem;\n}\n.addScore-section form .message {\n  font-weight: 700;\n  font-size: 1.8rem;\n}\n\n.waiting {\n  color: red;\n}\n\n.success {\n  color: green;\n}\n\nfooter {\n  display: flex;\n  justify-content: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAEA;EACE,sBAAA;EACA,gBAAA;AAAF;;AAGA;;;EAGE,mBAAA;AAAF;;AAGA;EACE,iBAAA;EACA,iCAAA;AAAF;;AAGA;EACE,gBAAA;EACA,SAAA;EACA,UAAA;EACA,0BAAA;AAAF;AAEE;EACE,aAAA;AAAJ;;AAIA;EACE,aAAA;EACA,uBAAA;AADF;;AAIA;EACE,aAAA;EACA,uBAAA;EACA,gBAAA;EACA,mBAAA;AADF;;AAKE;EACE,aAAA;EACA,mBAAA;AAFJ;AAII;EACE,kBAAA;AAFN;;AAOA;EACE,aAAA;EACA,8BAAA;AAJF;;AAOA;EACE,sBAAA;EACA,YAAA;AAJF;;AAQE;EACE,aAAA;EACA,sBAAA;EACA,aAAA;EACA,yBAAA;AALJ;AAOI;EACE,eAAA;AALN;AAQI;EACE,UAAA;EACA,oBAAA;EACA,mBAAA;AANN;AASI;EACE,gBAAA;EACA,iBAAA;AAPN;;AAYA;EACE,UAAA;AATF;;AAYA;EACE,YAAA;AATF;;AAYA;EACE,aAAA;EACA,uBAAA;AATF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');\n\nhtml {\n  box-sizing: border-box;\n  font-size: 62.5%;\n}\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n}\n\nbody {\n  font-size: 1.6rem;\n  font-family: 'Roboto', sans-serif;\n}\n\nul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  border: 0.1rem solid black;\n\n  li {\n    padding: 1rem;\n  }\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nmain {\n  display: flex;\n  justify-content: center;\n  column-gap: 5rem;\n  margin-bottom: 5rem;\n}\n\n.recentScore-section {\n  .title-score {\n    display: flex;\n    align-items: center;\n\n    h2 {\n      margin-right: 2rem;\n    }\n  }\n}\n\n.score-li {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}\n\n.recentScore-section ul li:nth-child(2n) {\n  background-color: grey;\n  color: white;\n}\n\n.addScore-section {\n  form {\n    display: flex;\n    flex-direction: column;\n    row-gap: 1rem;\n    justify-content: flex-end;\n\n    input {\n      padding: 0.5rem;\n    }\n\n    button {\n      width: 50%;\n      align-self: flex-end;\n      margin-bottom: 2rem;\n    }\n\n    .message {\n      font-weight: 700;\n      font-size: 1.8rem;\n    }\n  }\n}\n\n.waiting {\n  color: red;\n}\n\n.success {\n  color: green;\n}\n\nfooter {\n  display: flex;\n  justify-content: center;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +529,181 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/modules/player-score.js":
+/*!*************************************!*\
+  !*** ./src/modules/player-score.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Player)
+/* harmony export */ });
+class Player {
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+  }
+}
+
+/***/ }),
+
+/***/ "./src/modules/scores.js":
+/*!*******************************!*\
+  !*** ./src/modules/scores.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "dataWait": () => (/* binding */ dataWait),
+/* harmony export */   "reloadList": () => (/* binding */ reloadList),
+/* harmony export */   "setValues": () => (/* binding */ setValues)
+/* harmony export */ });
+/* harmony import */ var _set_element_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./set-element.js */ "./src/modules/set-element.js");
+
+
+// Function to post new score on API
+const postScore = async (url, obj) => {
+  const response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      user: obj.name,
+      score: obj.score,
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
+  const serverResponse = response.json();
+  return serverResponse;
+};
+
+// Function to get scores from API
+const getScore = async (url) => {
+  // create a new variable that contains the response of the API
+  const response = await fetch(url);
+  const data = await response.json();
+  // returns the data
+  return data;
+};
+
+// Function to set the data on DOM
+const setValues = (url, node) => {
+  // gets the data
+  const data = getScore(url);
+  data.then((value) => {
+    value.result.forEach((element) => {
+      (0,_set_element_js__WEBPACK_IMPORTED_MODULE_0__["default"])(element.user, element.score, node);
+    });
+  });
+  return 'Data set';
+};
+
+// Function to print and set values
+const dataWait = async (url, obj, node) => {
+  await postScore(url, obj);
+  await setValues(url, node);
+  return 'Resolved';
+};
+
+// Function to update the DOM list
+const reloadList = (className) => {
+  const liList = document.querySelectorAll(`.${className}`);
+  liList.forEach((node) => {
+    node.remove();
+  });
+  return 'ready';
+};
+
+
+
+/***/ }),
+
+/***/ "./src/modules/set-element.js":
+/*!************************************!*\
+  !*** ./src/modules/set-element.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+// Function to create element
+const createLi = (name, score, node) => {
+  // set element variables
+  const parent = node;
+  const li = document.createElement('li');
+  const nameSp = document.createElement('span');
+  const scoreSp = document.createElement('span');
+  // set values and class
+  nameSp.innerHTML = `${name}:`;
+  scoreSp.innerHTML = score;
+  li.classList.add('score-li');
+  // append elements
+  li.appendChild(nameSp);
+  li.appendChild(scoreSp);
+  parent.appendChild(li);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createLi);
+
+/***/ }),
+
+/***/ "./src/modules/set-game.js":
+/*!*********************************!*\
+  !*** ./src/modules/set-game.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+// Set game ID
+const createGame = async (url, game) => {
+  const gamesContainer = [];
+  const response = await fetch(url, {
+    method: 'POST',
+    body: JSON.stringify({
+      name: game,
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  });
+  const data = await response.json();
+  data.forEach((element) => {
+    gamesContainer.push(element.result);
+  });
+  return gamesContainer;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createGame);
+
+/***/ }),
+
+/***/ "./src/modules/style.js":
+/*!******************************!*\
+  !*** ./src/modules/style.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+// Function to swap classes
+const swapStyle = (node, classOut, classIn) => {
+  node.classList.remove(classOut);
+  node.classList.add(classIn);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (swapStyle);
+
 /***/ })
 
 /******/ 	});
@@ -611,10 +787,50 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _modules_set_game_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/set-game.js */ "./src/modules/set-game.js");
+/* harmony import */ var _modules_style_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/style.js */ "./src/modules/style.js");
+/* harmony import */ var _modules_scores_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/scores.js */ "./src/modules/scores.js");
+/* harmony import */ var _modules_player_score_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/player-score.js */ "./src/modules/player-score.js");
 
+
+
+
+
+
+// DOM variables
+const boardContainer = document.getElementById('scoreContainer');
+const nameIn = document.getElementById('nameIn');
+const scoreIn = document.getElementById('scoreIn');
+const addBtn = document.getElementById('addBtn');
+const refreshBtn = document.getElementById('refresh');
+const mesg = document.querySelector('.message');
+// API variables
+const urlAPI = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const id = 'Gofo0FioUhH1t86Rl6tF';
+const urlId = `${urlAPI}${id}/scores/`;
+
+// Event to add new score
+addBtn.addEventListener('click', async (e) => {
+  e.preventDefault();
+  await (0,_modules_scores_js__WEBPACK_IMPORTED_MODULE_3__.reloadList)('score-li');
+  mesg.innerHTML = 'Uploding your new score...';
+  const player = new _modules_player_score_js__WEBPACK_IMPORTED_MODULE_4__["default"](nameIn.value, scoreIn.value);
+  await (0,_modules_scores_js__WEBPACK_IMPORTED_MODULE_3__.dataWait)(urlId, player, boardContainer);
+  (0,_modules_style_js__WEBPACK_IMPORTED_MODULE_2__["default"])(mesg, 'waiting', 'success');
+  mesg.innerHTML = 'Your data was saved!';
+  nameIn.value = '';
+  scoreIn.value = '';
+});
+
+// Event to refresh data
+refreshBtn.addEventListener('click', async () => {
+  await (0,_modules_scores_js__WEBPACK_IMPORTED_MODULE_3__.reloadList)('score-li');
+  mesg.innerHTML = '';
+  (0,_modules_scores_js__WEBPACK_IMPORTED_MODULE_3__.setValues)(urlId, boardContainer);
+});
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlee46a1fd9c9d02770a7ba.js.map
+//# sourceMappingURL=bundle7770702f6861b8cdd022.js.map
