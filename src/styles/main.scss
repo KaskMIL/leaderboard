@@ -50,6 +50,11 @@ main {
   }
 }
 
+.score-li {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
 .recentScore-section ul li:nth-child(2n) {
   background-color: grey;
   color: white;
