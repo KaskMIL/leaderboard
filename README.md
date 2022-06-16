@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
     npm run dev
 
 
-## Authors
+## Author
 
 👤 **Tom Milanesi**
 
