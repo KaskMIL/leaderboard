@@ -5,9 +5,10 @@ function createLi(name, score, node) {
   const li = document.createElement('li');
   const nameSp = document.createElement('span');
   const scoreSp = document.createElement('span');
-  // set values
-  nameSp.innerHTML = `${name}: `;
+  // set values and class
+  nameSp.innerHTML = `${name}:`;
   scoreSp.innerHTML = score;
+  li.classList.add('score-li')
   // append elements
   li.appendChild(nameSp);
   li.appendChild(scoreSp);

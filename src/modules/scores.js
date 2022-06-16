@@ -44,4 +44,13 @@ const dataWait = async(url, obj, node) => {
   return 'Resolved'
 }
 
-export {dataWait, setValues};
+// Function to update the DOM list
+const reloadList = (className) => {
+  const liList = document.querySelectorAll(`.${className}`);
+  liList.forEach(node => {
+    node.remove();
+  });
+  return 'ready'
+}
+
+export {dataWait, setValues, reloadList};
