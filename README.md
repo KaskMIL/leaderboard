@@ -9,7 +9,7 @@
 - HTML CSS Javascript
 - Linters and Webpack
 
-## [Live Demo](https://github.com/KaskMIL/leaderboard)
+## [Live Demo](https://kaskmil.github.io/leaderboard/)
 
 
 ## Getting Started
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
     npm run dev
 
 
-## Authors
+## Author
 
 👤 **Tom Milanesi**
 

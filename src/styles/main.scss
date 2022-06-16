@@ -52,7 +52,7 @@ main {
 
 .score-li {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .recentScore-section ul li:nth-child(2n) {
@@ -74,8 +74,22 @@ main {
     button {
       width: 50%;
       align-self: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .message {
+      font-weight: 700;
+      font-size: 1.8rem;
     }
   }
+}
+
+.waiting {
+  color: red;
+}
+
+.success {
+  color: green;
 }
 
 footer {

@@ -1,5 +1,6 @@
 import './styles/main.scss';
 import './modules/set-game.js';
+import swapStyle from './modules/style.js';
 import { setValues, dataWait, reloadList } from './modules/scores.js';
 import Player from './modules/player-score.js';
 
@@ -22,7 +23,8 @@ addBtn.addEventListener('click', async (e) => {
   mesg.innerHTML = 'Uploding your new score...';
   const player = new Player(nameIn.value, scoreIn.value);
   await dataWait(urlId, player, boardContainer);
-  mesg.innerHTML = 'Yor data was saved!';
+  swapStyle(mesg, 'waiting', 'success');
+  mesg.innerHTML = 'Your data was saved!';
   nameIn.value = '';
   scoreIn.value = '';
 });
@@ -30,5 +32,6 @@ addBtn.addEventListener('click', async (e) => {
 // Event to refresh data
 refreshBtn.addEventListener('click', async () => {
   await reloadList('score-li');
+  mesg.innerHTML = '';
   setValues(urlId, boardContainer);
 });
